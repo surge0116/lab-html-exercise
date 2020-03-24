@@ -32,7 +32,7 @@ body {
       display: flex;
       align-items: center;
   }
-  .search input, text{
+   .search input, text{
       width: 1150px;
       height: 50px;
       color: rgba(0, 0, 0, 0.605);
@@ -109,14 +109,14 @@ body {
       color: black; 
       padding: 10px 30px;
   }
-  #top > div > form > button1{
+  #top .button1{
       background-color: #FB3B49;
       color: white;
       box-shadow: 8px 8px 0 rgba(251,59,73,.2);
       font-weight: bold;
       padding: 15px 40px;
   }
-  #top > div > form > button2{
+  #top .button2{
      background-color: white;
      color: black;
      font-weight: bold;
