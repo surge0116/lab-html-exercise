@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+  }
+  header > div{
+          padding: 0 25px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid lightgray;
+  }
+  nav {
+      width: 600px;
+  }
+  nav ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  nav a{
+      text-decoration: none;
+      color: black;
+  }
+  .blackHeart{
+      width: 20px;
+      margin-right: 1rem;
+  }
+  .search{
+      width: 80%;
+      display: flex;
+      align-items: center;
+  }
+  .search input, text{
+      width: 1150px;
+      height: 50px;
+      color: rgba(0, 0, 0, 0.605);
+  }
+  .search button{
+      height: 50px;
+      width: 80px;
+      color:white;
+      background-color:#fb3e44;
+      font-size: 16px;
+      border: none    
+  }
+  .search img{
+    position: absolute;
+    align-items: flex-end;
+    width: 30px;
+    opacity: .5;
+}
+
+  .joinlog a{
+      text-decoration: none;
+      color: black;
+      background-color: white;
+}
+
+  .Login a{
+    text-decoration: none;
+    color: black;
+}
+
+  #box{
+      border:1px solid black;
+      padding: 8px;
+      margin-right: 10px;
+  }
+  .npm img{
+      width: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  #top{
+      padding-top: 0;
+      height: 600px;
+      background-color: rgba(232,217,217,.3);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  #top h1{
+      font-size: 70px;
+      padding-top: 30;
+      margin: 0;
+  }
+  #top article{
+      width: 400px;
+      text-align: center;
+      padding-top: 30px;
+      font-weight: bold;
+  }
+  #top div{
+      width: 400px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 30px;
+  }
+  #top a{
+      text-decoration: none;
+      color: black; 
+      padding: 10px 30px;
+  }
+  #top > div > form > button1{
+      background-color: #FB3B49;
+      color: white;
+      box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+      font-weight: bold;
+      padding: 15px 40px;
+  }
+  #top > div > form > button2{
+     background-color: white;
+     color: black;
+     font-weight: bold;
+     padding: 15px 30px;
+  }
+  #mid {
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  #mid img{
+      width: 300px;
+      padding-bottom: 30px;
+      
+  }
+  #mid h2{
+      background-color: rgba(255,204,53,.4);
+      font-size: 40px;
+      transform: skew(9deg,0deg);
+      font-style: italic;
+      margin: 0;
+  }
+  #mid article{
+      width: 700px;
+      text-align: center;
+      margin-top: 15px;
+  }
+  #bottom{
+      padding-top: 50px;
+  }
+  #bottom > div{
+      padding:50px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+  }
+  #bottom h3{
+      padding-left: 20px;
+      color: #ED1C24;
+  }
+  #bottom > div > div{
+      width: 300px;
+      height:250px;
+  }
+  #bottom p{
+      padding-left: 20px;
+      padding-right: 30px;
+  }
+  #bottom img{
+      padding-left: 20px;
+      width: 50px;
+      height: 50px;
+  }
+  #bottom button{
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 20px 150px;
+      box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+      font-size: 20px;
+  }
