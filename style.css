@@ -31,11 +31,12 @@ body {
       width: 80%;
       display: flex;
       align-items: center;
-  }
+}
    .search input, text{
       width: 1150px;
       height: 50px;
       color: rgba(0, 0, 0, 0.605);
+      text-indent: 50px;
   }
   .search button{
       height: 50px;
@@ -46,16 +47,17 @@ body {
       border: none    
   }
   .search img{
-    position: absolute;
-    align-items: flex-end;
-    width: 30px;
-    opacity: .5;
+     position: absolute;
+     align-items: flex-end;
+     width: 30px;
+     opacity: .5;
+     margin-left: 5px;
+     margin-top: 10px;
 }
 
   .joinlog a{
       text-decoration: none;
       color: black;
-      background-color: white;
 }
 
   .Login a{
